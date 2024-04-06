@@ -11048,9 +11048,9 @@
         constructor(t, n) {
           (this.urlSerializer = t), (this.urlTree = n);
         }
-        /* noMatchError(t) {
+        noMatchError(t) {
           return new w(4002, !1);
-        } */
+        }
         lineralizeSegments(t, n) {
           let r = [],
             o = n.root;
